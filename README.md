@@ -96,19 +96,19 @@ Tips for automating the iHeartRadio app:
 - Screenshot: Do the following command, "((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);". It legitimately takes a screeshot. If you want to make sure, store the command in a File object and then print the path to the screenshot file object.
 - In essence, the test should pass if it gets through the whole test. The test will fail if any of the elements are not present or the station does not play when expected.
 
-### Execution
+## Execution
 You must set up the Appium server. While for the iHeartRadio test you can simply start an Appium server, you must have a chromedriver to conduct the browser-based tests. On the command line, type "appium --allow-insecure chromedriver-autodownload" to add the chromedriver.
 
 Make sure your device is connected to the computer and on.
 
 To execute a specific test, you must execute the specific method. There should be an "Outline" tab for you to run the test. You can right click on the method, given it has or at least should have a @Test annotation, and choose Run As > JUnit Test. Good luck!
 
-### Sidenotes
+## Sidenotes
 For the second exercise, the test should fail because the first link is "https://miwtech.com" not "www.mobileintegrationworkgroup.com". I changed it so that it would pass.
 
 I was assuming that by "deleting the app" after finishing the test, that meant just closing the app. Otherwise I could not run the test again. Note that the apk must be downloaded onto the emulator before the test can be done.
 
-### Acknowledgements
+## Acknowledgements
 To be honest, I barely, if at all, knew what I was doing. Really the bulk of the time spent as a software developer is researching concepts and raging at your computer, not actually writing code. This work would not have been possible without consultation of the following online resources:
 - Automation Step by Step - Raghav Pal: Appium Tutorials Playlist https://www.youtube.com/watch?v=mAylNVddfJc&list=PLhW3qG5bs-L8npSSZD6aWdYFQ96OEduhk
 - Appium (The Website): Documentation http://appium.io/docs/en/about-appium/intro/
