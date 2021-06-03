@@ -18,7 +18,6 @@ Open up the Eclipse IDE or whatever environment you are using and import via the
 You will find four classes under the "tests" package in the "src/test/java" folder. Make sure to run each test under the "AppTest" and "BrowserTest" classes, as indicated by a decorator "@Test", as JUnit Tests.
 
 ## Walkthrough
-This is where the learning experience truly lay. This will be the challenge, but it is possible with consultation of online tutorials and analogous thinking.
 
 ### Create a Maven Project
 1. File > New > Other..
@@ -103,13 +102,8 @@ Make sure your device is connected to the computer and on.
 
 To execute a specific test, you must execute the specific method. There should be an "Outline" tab for you to run the test. You can right click on the method, given it has or at least should have a @Test annotation, and choose Run As > JUnit Test. Good luck!
 
-## Sidenotes
-For the second exercise, the test should fail because the first link is "https://miwtech.com" not "www.mobileintegrationworkgroup.com". I changed it so that it would pass.
-
-I was assuming that by "deleting the app" after finishing the test, that meant just closing the app. Otherwise I could not run the test again. Note that the apk must be downloaded onto the emulator before the test can be done.
-
 ## Acknowledgements
-To be honest, I barely, if at all, knew what I was doing. Really the bulk of the time spent as a software developer is researching concepts and raging at your computer, not actually writing code. This work would not have been possible without consultation of the following online resources:
+This work would not have been possible without consultation of the following online resources:
 - Automation Step by Step - Raghav Pal: Appium Tutorials Playlist https://www.youtube.com/watch?v=mAylNVddfJc&list=PLhW3qG5bs-L8npSSZD6aWdYFQ96OEduhk
 - Appium (The Website): Documentation http://appium.io/docs/en/about-appium/intro/
 - ToolSQA (Although outdated, necessary for prerequisites for Windows environment): https://www.toolsqa.com/mobile-automation/appium/appium-tutorial/
