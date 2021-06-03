@@ -107,4 +107,4 @@ This work would not have been possible without consultation of the following onl
 - Automation Step by Step - Raghav Pal: Appium Tutorials Playlist https://www.youtube.com/watch?v=mAylNVddfJc&list=PLhW3qG5bs-L8npSSZD6aWdYFQ96OEduhk
 - Appium (The Website): Documentation http://appium.io/docs/en/about-appium/intro/
 - ToolSQA (Although outdated, necessary for prerequisites for Windows environment): https://www.toolsqa.com/mobile-automation/appium/appium-tutorial/
-- StackOverflow (A given to fix random errors): I think you know how to get there.
+- StackOverflow
